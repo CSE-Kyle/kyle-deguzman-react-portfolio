@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "env",
+    "react" // allowing you to write react code; has specific set of syntax options you're going to use.
+  ],
+  "plugins": [
+    "babel-plugin-transform-class-properties",
+    "babel-plugin-transform-object-rest-spread"
+  ]
+}
+
+// dot in front of file name = hidden configuration file 
+// "rc" - configuration file 
+// this is a hidden configuration file of babel
+// babel - a JavaScript compiler; there are all kinds of different versions of JavaScript
+// takes all the code you write and compiles it down to something that any browser is able to understand
+// https://babeljs.io/
+// https://babeljs.io/en/repl.html#?browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=NoRgNABATJDMC6A6AtgQwA4AoCmAbCAvAHwQDeAUBBAE7YAuArtQHYR4QBUEArANzkBfAJRA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=7.9.0&externalPlugins=
+// destructuring - gives the ability to take an object in JavaScript and split the object into variables automatically.
